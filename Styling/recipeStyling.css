@@ -1,0 +1,33 @@
+html{
+    background: #DAD3BE#B7B597;
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+img{
+    border-radius: 10%;
+    height: 400px;
+}
+
+#words{
+    background-color: #B7B597;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+#title{
+    background: black;
+    height: 5px;
+    border: none;
+}
+
+#separator{
+    background: black;
+    height: 2px;
+    width: 200px;
+    border: none;
+}
+
+

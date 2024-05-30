@@ -3,11 +3,16 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./Styling/main.css" rel="stylesheet"/>
         <title>Recipes</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     </head>
     <body>
         <h1>Recipes</h1>
-        <hr/>
+        <hr id="topLine"/>
 
         <!-- <h3>Breakfast</h3>
         <ul>
@@ -27,35 +32,55 @@
             <li>Pelechinki</li>
         </ul> -->
 
-        <h3>Soup</h3>
-        <ul>
-            <li><a href= "./Recipes/beanSoup.html">Bean Soup</a></li>
-            <li><a href= "./Recipes/kaleSausageSoup.html">Kale Sausage Soup</a></li>
-            <li><a href ="./Recipes/eggDrop.html">Egg Drop</a></li>
-            <li></li>
-        </ul>
+        <div class="subHeader">
+            <h2>Dishes</h2>
+            <hr class="subHeadLine"/>
 
-        <h3>Pastries</h3>
-        <ul>
-            <li>Cinnamon Rolls</li>
-            <li>Pull Apart Cinnamon Bread</li>
-            <li>Poppyseed Muffins</li>
-            <li>Pancake</li>
-            <li>Pelechinki</li>
-        </ul>
+            <div class="Dish">
+                <h3>Soup</h3>
+                <ul>
+                    <li><a href= "./Recipes/Soup/beanSoup.html">Bean Soup</a></li>
+                    <li><a href= "./Recipes/Soup/kaleSausageSoup.html">Kale Sausage Soup</a></li>
+                    <li><a href ="./Recipes/Soup/eggDrop.html">Egg Drop</a></li>
+                    <li></li>
+                </ul>                
+            </div>
 
-        <h3>Resturants</h3>
+            <div class="Dish">
+                <h3>Pastries</h3>
+                <ul>
+                    <li>Cinnamon Rolls</li>
+                    <li>Pull Apart Cinnamon Bread</li>
+                    <li>Poppyseed Muffins</li>
+                    <li>Pancake</li>
+                    <li>Pelechinki</li>
+                </ul>   
+            </div>
+         
+        </div>
 
-        <h4>Chinese</h4>
-        <ul>
-            <li>Tao Garden (AZ)</li>
-            <li>Red and Blue (NY)</li>
-        </ul>
 
-        <h4>American</h4>
-        <ul>
-            <li>Cheesecake Factory</li>
-        </ul>
+        <div class="subHeader">
+            <h2>Resturants</h2>
+            <hr class="subHeadLine"/>
+
+            <div class="Resturant">
+                <h3>Chinese</h3>
+                <ul>
+                    <li>Tao Garden (AZ)</li>
+                    <li>Red and Blue (NY)</li>
+                </ul>                
+            </div>
+
+            <div class="Resturant">
+                <h3>American</h3>
+                <ul>
+                    <li>Cheesecake Factory</li>
+                </ul>                    
+            </div>
+       
+        </div>
+
 
     </body>
 </hmtl>

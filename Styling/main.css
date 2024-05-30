@@ -1,0 +1,39 @@
+
+/* Color Palette
+#254336
+#6B8A7A
+#B7B597
+#DAD3BE
+*/
+html{
+    background: #DAD3BE;
+    font-family: "Josefin Slab", serif;
+    font-weight: 600;
+}
+
+#topLine{
+    background: black;
+    border:none;
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: #254336;
+}
+
+.subHeader{
+    background: #B7B597;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.subHeadLine{
+    margin-left: 0px;
+    background: black;
+    border: none;
+    height: 2px;
+    width: 50%;
+}
