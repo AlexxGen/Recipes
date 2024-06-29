@@ -1,14 +1,18 @@
-
 /* Color Palette
 #254336
 #6B8A7A
 #B7B597
 #DAD3BE
 */
-html{
+/* html{
     background: #DAD3BE;
     font-family: "Josefin Slab", serif;
     font-weight: 600;
+} */
+
+/* Header */
+header{
+    text-align: center;
 }
 
 #topLine{
@@ -18,12 +22,10 @@ html{
     margin-bottom: 20px;
 }
 
-a{
-    color: #254336;
-}
-
+/* Subheader sections */
 .subHeader{
-    background: #B7B597;
+    /* background: #B7B597; */
+    text-align: center;
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 10px;
@@ -31,9 +33,36 @@ a{
 }
 
 .subHeadLine{
-    margin-left: 0px;
+    margin-left: 25%;
     background: black;
     border: none;
     height: 2px;
     width: 50%;
+} 
+
+/* recipe links */
+.clickable{
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.hover{
+    box-shadow: 0 3px 4px 0 grey;
+    opacity: .8;
+    filter: brightness(50%);
+}
+
+#beanSoup{
+    background-image: url("../Images/BeanSoup.jpg");
+}
+
+/* Extra details for whole document */
+a{
+    color: #DAD3BE;
 }

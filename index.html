@@ -3,16 +3,18 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./Styling/main.css" rel="stylesheet"/>
         <title>Recipes</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link href="./Styling/main.css" rel="stylesheet"/>   
     </head>
     <body>
-        <h1>Recipes</h1>
-        <hr id="topLine"/>
+        <header>
+            <h1>Recipes</h1>
+            <hr id="topLine"/>
+        </header>
 
         <!-- <h3>Breakfast</h3>
         <ul>
@@ -32,18 +34,22 @@
             <li>Pelechinki</li>
         </ul> -->
 
-        <div class="subHeader">
+        <div class="subHeader food">
             <h2>Food</h2>
             <hr class="subHeadLine"/>
 
             <div class="Dish">
                 <h3>Soup</h3>
-                <ul>
-                    <li><a href= "./Recipes/Soup/beanSoup.html">Bean Soup</a></li>
-                    <li><a href= "./Recipes/Soup/kaleSausageSoup.html">Kale Sausage Soup</a></li>
-                    <li><a href ="./Recipes/Soup/eggDrop.html">Egg Drop</a></li>
-                    <li>Chicken Gnocchi Soup</li>
-                </ul>                
+                    <div class="clickable hover" id="beanSoup">
+                        <a href= "./Recipes/Soup/beanSoup.html">
+                            <div class="name">
+                                <p>Bean Soup</p>
+                            </div>
+                        </a>
+                    </div>
+                    <a href= "./Recipes/Soup/kaleSausageSoup.html">Kale Sausage Soup</a>
+                    <a href ="./Recipes/Soup/eggDrop.html">Egg Drop</a>
+                    Chicken Gnocchi Soup          
             </div>
 
             <div class="Dish">
@@ -66,7 +72,7 @@
          
         </div>
 
-        <div class="subHeader">
+        <div class="subHeader non-food">
             <h2>Non-Food</h2>
             <hr class="subHeadLine"/>
 
@@ -79,7 +85,7 @@
         </div>
 
 
-        <div class="subHeader">
+        <div class="subHeader resturants">
             <h2>Resturants</h2>
             <hr class="subHeadLine"/>
 
@@ -100,6 +106,10 @@
        
         </div>
 
+        <footer>
+            <p>&#9651lex 2024</p>
+        </footer>
 
+        <script src="./JS/index.js" charset="UTF-8"></script>
     </body>
 </hmtl>
