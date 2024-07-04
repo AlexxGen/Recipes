@@ -59,29 +59,35 @@ a{
     width: 400px;
     object-fit: cover;
     object-position: center;
+    z-index: 4;
 }
 
 .name{
     position: absolute;
-    /* top: 0px;
-    text-align: center; */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100px; /* Example width */
-    height: 100px; 
-
-}
-
-/* .name *{
+    color: white;
+    letter-spacing: 1px;
+    top: 0%;
+    padding-left: 50%;
+    padding-top: 25%;
     width: 100%;
-    padding-left: 120px;
-    /* padding: 0 5% 15px; */
-} */
+    height: auto; 
+    z-index: 5;
+    opacity: 0;
+} 
+
 
 .hover{
     box-shadow: 0 3px 4px 0 grey;
+}
+
+.hoverName{
+    box-shadow: initial;
+    opacity: 1;
+    filter: brightness(100%);
+}
+
+.hoverImg{
     opacity: .8;
-    filter: brightness(50%);
+    filter: brightness(30%);
 }
 
