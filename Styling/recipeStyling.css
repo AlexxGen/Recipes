@@ -7,11 +7,13 @@ html{
 }
 
 img{
+    position: inline-block;
     border-radius: 10%;
     height: 400px;
 }
 
 #words{
+    position: inline-block;
     background-color: #B7B597;
     padding: 10px;
     border-radius: 5%;
