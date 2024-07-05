@@ -4,15 +4,20 @@
 #B7B597
 #DAD3BE
 */
-/* html{
+html{
     background: #DAD3BE;
-    font-family: "Josefin Slab", serif;
-    font-weight: 600;
-} */
+}
 
 /* Header */
 header{
     text-align: center;
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2rem;
+
+    letter-spacing: 2px;
 }
 
 #topLine{
@@ -25,7 +30,14 @@ header{
 /* Subheader sections */
 .subHeader{
     /* background: #B7B597; */
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
     text-align: center;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 10px;
@@ -63,6 +75,7 @@ a{
 }
 
 .name{
+    font-size: 1rem;
     position: absolute;
     color: white;
     letter-spacing: 1px;
