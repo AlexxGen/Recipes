@@ -10,14 +10,30 @@ html{
 
 /* Header */
 header{
+    position: relative;
     text-align: center;
     font-family: "Playwrite AU QLD", cursive;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    font-size: 2rem;
+}
 
-    letter-spacing: 2px;
+h1{
+    position: absolute;
+    color: white;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    padding-left: 40%;
+    padding-top: 20%;
+    z-index: 5;
+}
+
+header img{
+    width: 100%;
+    /* object-fit: cover; */
+    object-position: center;
+    opacity: .8;
+    filter: brightness(40%);
 }
 
 #topLine{
@@ -81,7 +97,7 @@ a{
     letter-spacing: 1px;
     top: 0%;
     padding-left: 50%;
-    padding-top: 25%;
+    padding-top: 15%;
     width: 100%;
     height: auto; 
     z-index: 5;
