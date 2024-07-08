@@ -1,28 +1,46 @@
-html{
-    background: #DAD3BE#B7B597;
-    font-family: "Josefin Slab", serif;
+body{
+    background: #DAD3BE;
+    font-family: "Playwrite AU QLD", cursive;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: 300;
     font-style: normal;
+
+    display: grid;
+    grid-template-columns: 1 fr 2 fr;
+    grid-template-rows: 1 fr 2 fr;
+    gap: 30px;
 }
 
-img{
-    position: inline-block;
-    border-radius: 10%;
-    height: 400px;
-}
-
-#words{
-    position: inline-block;
-    background-color: #B7B597;
+header{
+    grid-column: span 2;
     padding: 10px;
-    border-radius: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #title{
     background: black;
     height: 5px;
     border: none;
+}
+
+img{
+    border-radius: 10%;
+    height: 100vh;
+    float: left;
+}
+
+.photo{
+    justify-self: center;  
+    align-self: center;
+}
+
+#words{
+    background-color: #B7B597;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5%;
 }
 
 #separator{
@@ -33,3 +51,15 @@ img{
 }
 
 
+@media (max-width: 700px){
+    body{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        height:100%;
+        width: 80vh;
+    }
+
+}
