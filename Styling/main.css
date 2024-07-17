@@ -122,12 +122,29 @@ a{
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
     .subHeader{ 
         font-size: 3rem;
     }
 
     a .name{
+        font-size: 2rem;
+    }
+
+    .clickable{
+        height: 150px;
+        width: 300px;
+    }
+
+    .photo img{
+        height: 150px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 400px){
+    a .name{
         font-size: 3rem;
     }
+
 }
