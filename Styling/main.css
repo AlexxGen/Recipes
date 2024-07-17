@@ -6,6 +6,7 @@
 */
 html{
     background: #DAD3BE;
+    font-size: 1vw;
 }
 
 /* Header */
@@ -21,10 +22,10 @@ header{
 h1{
     position: absolute;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
     letter-spacing: 3px;
-    padding-left: 40%;
-    padding-top: 20%;
+    padding-left: 35%;
+    padding-top: 15%;
     z-index: 5;
 }
 
@@ -120,3 +121,13 @@ a{
     filter: brightness(30%);
 }
 
+
+@media (max-width: 700px){
+    .subHeader{ 
+        font-size: 3rem;
+    }
+
+    a .name{
+        font-size: 3rem;
+    }
+}
