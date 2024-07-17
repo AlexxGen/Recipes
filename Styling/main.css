@@ -121,6 +121,11 @@ a{
     filter: brightness(30%);
 }
 
+footer{
+    text-align:center;
+    font-size: 12pt;
+}
+
 
 @media (max-width: 700px) {
     .subHeader{ 
@@ -143,19 +148,21 @@ a{
 }
 
 @media (max-width: 400px){
+    .subHeader{ 
+        font-size: 4rem;
+    }
+
     a .name{
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .clickable{
         width: 100%;
-        /* object-fit: cover; */
         object-position: center;
     }
 
     .photo img{
         width: 100%;
-        /* object-fit: cover; */
         object-position: center;
     }
 
