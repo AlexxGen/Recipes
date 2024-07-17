@@ -147,4 +147,16 @@ a{
         font-size: 3rem;
     }
 
+    .clickable{
+        width: 100%;
+        /* object-fit: cover; */
+        object-position: center;
+    }
+
+    .photo img{
+        width: 100%;
+        /* object-fit: cover; */
+        object-position: center;
+    }
+
 }
