@@ -1,3 +1,5 @@
+/* Bold times and cooking temps*/
+
 body{
     background: #DAD3BE;
     font-family: "Playwrite AU QLD", cursive;
@@ -47,7 +49,7 @@ li{
     font-family: "Indie Flower", cursive;
     font-weight: 500;
     font-style: normal;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 
 #separator{
