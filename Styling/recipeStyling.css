@@ -16,9 +16,23 @@ body{
 
 header{
     grid-column: span 2;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1 fr 2 fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    /* padding: 10px; */
     padding-left: 50px;
     padding-right: 50px;
+}
+
+header h1{
+    grid-column: 1;
+    grid-row: 2 span 2;
+}
+
+header a{
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: end;
 }
 
 #title{
